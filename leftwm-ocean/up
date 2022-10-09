@@ -10,10 +10,10 @@ ln -s "$SCRIPTPATH"/down /tmp/leftwm-theme-down
 
 # Apps autostart
 picom &> /dev/null &
-betterlockscreen -l dimblur & 
+# betterlockscreen -l dimblur & 
 
 # Set the theme.toml config
-echo "LoadTheme "$SCRIPTPATH"/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
+leftwm command "LoadTheme "$SCRIPTPATH"/theme.ron"
 
 # Set background
 feh --bg-fill ~/Pictures/wallpapers/vera.jpg
