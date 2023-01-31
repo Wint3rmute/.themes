@@ -15,5 +15,8 @@ picom &> /dev/null &
 # Set the theme.toml config
 leftwm command "LoadTheme "$SCRIPTPATH"/theme.ron"
 
+redshift 51.1:17.03 &
+
 # Set background
-feh --bg-fill ~/Pictures/wallpapers/vera.jpg
+feh --bg-fill ~/Pictures/wallpapers/vera.jpg &
+
