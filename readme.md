@@ -1,3 +1,8 @@
+
+# This repository will be removed in favour of my [dotfiles repo](https://github.com/Wint3rmute/dotfiles).
+
+---
+
 # 0ceanic Theme - TODO: Proper name
 
 **Disclaimer**
